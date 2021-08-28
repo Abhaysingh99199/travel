@@ -1,0 +1,82 @@
+#header{
+    padding: 12% 30%;
+    text-align: center;
+    background-image: linear-gradient(to left,pink,orange);
+    color: #fff;
+    font-family: 'STIX Two Text', serif;
+}
+.main-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.imgs{
+    width: 70%;
+    border: 2px solid black;
+    padding: 2% 2%;
+
+}
+h3{
+    padding: 2% 0;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.h3{
+    font-size: 4rem;
+
+}
+#mid{
+    padding: 7% 2%;
+    text-align: center;
+}
+
+#end{
+    text-align: center;
+    background-image: linear-gradient(to left,pink,orange);
+    color: #fff;
+
+}
+.paragraph-end{
+    padding:10% 15% 12% 15%;    
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.paragraph-end a{
+    text-decoration: none;
+    color: #E1306C;
+}
+.footer{
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width: 755px) {
+    
+
+
+    .main-text{
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+    #mid{
+        padding: 2% 5%;
+       
+    }
+    .mid-para{
+        font-size: 1.5rem;
+        color: gray;
+
+    }
+    .mid-h3{
+        font-size: 3rem;
+    }
+    .paragraph-end{
+        font-size: 1.8rem;
+    }
+
+
+    
+}
